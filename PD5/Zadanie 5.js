@@ -6,7 +6,6 @@ const doubleNumber = (numbers) => {
 const tab = [1, 2, 3, 5, 8, 13, 21, 34, 55]
 
 doubleNumber(tab);
-const doubledArray = ();
 
 console.log(tab);
 console.log(doubledArray);
