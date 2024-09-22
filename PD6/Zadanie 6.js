@@ -1,12 +1,10 @@
+//Tworzenie obiektu
 const maciej = {
     username: "Maciej",
-    showThis() {
-        console.log(this);
-    },
+    //Metoda showName używająca this
     showName() {
         console.log(this.username);
     },
 };
-// This pozwala wyciągnąć imię z obiektu Maciej, odnosi się on tylko do tego obiektu
-maciej.showThis();
+// Przetestowanie obiektu używając metody showName()
 maciej.showName();
