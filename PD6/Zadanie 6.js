@@ -7,3 +7,6 @@ const maciej = {
         console.log(this.username);
     },
 };
+
+maciej.showThis();
+maciej.showName();
