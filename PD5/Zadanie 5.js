@@ -1,11 +1,11 @@
-// const doubleNumber = (numbers) => {
-//     numbers.map((number) => number *2)
-//     return doubledArray
-// }
+const doubleNumber = (numbers) => {
+    numbers.map((number) => number *2)
+    return doubledArray
+}
 
-// const tab = [1, 2, 3, 5, 8, 13, 21, 34, 55]
+const tab = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
-// doubleNumber(tab);
+doubleNumber(tab);
 
 const students = [
     {name: "Bonifacy", year: "1", score: 42},
