@@ -8,3 +8,18 @@ const maciej = {
 };
 // Przetestowanie obiektu używając metody showName()
 maciej.showName();
+
+const authors = {
+    [
+    { name: "Tolkien" },
+    { name: "Sapkowski" },
+    { name: "Sanderson" },
+    { name: "Dukaj" },
+    { name: "Gaiman"}
+    ]
+    showName() {
+        console.log(this.name);
+    }
+}
+
+authors.showName();
