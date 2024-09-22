@@ -1,20 +1,17 @@
-// const doubleNumber = (numbers) => {
-//     numbers.map((number) => number *2)
-//     return doubledArray
-// }
-
-// const tab = [1, 2, 3, 5, 8, 13, 21, 34, 55];
-
-// doubleNumber(tab);
-
-function returnDoubledNumbers (board) {
-    return board.map((number) => number*2)
+function doubleNumbers(board) {
+    return board.map(number => number * 2);
 }
 
 const tab = [1, 2, 3, 5, 8, 13, 21, 34, 55];
-returnDoubledNumbers(tab)
-console.log(tab)
+const doubledTab = doubleNumbers(tab);
+console.log(tab);
+console.log(doubledTab);
 
+//////////////////////////////////////////////////
+
+function getStudentNames(students) {
+    return students.map(student => student.name);
+}
 const students = [
     {name: "Bonifacy", year: "1", score: 42},
     {name: "Gus", year: "1", score: 96},
@@ -22,5 +19,7 @@ const students = [
     {name: "Pawel", year: "5", score: 37},
     {name: "Stan", year: "5", score: 31},
 ];
-const name = students.map(student => student.name);
-console.log(name);
+
+const studentNames = getStudentNames(students);
+console.log(students);
+console.log(studentNames);
