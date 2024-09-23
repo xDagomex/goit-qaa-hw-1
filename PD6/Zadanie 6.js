@@ -25,12 +25,12 @@ const bookshelf = {
     }
   };
   
-  // Przykładowi autorzy dodani do obiektu
+  // Przykładowi autorzy dodani do obiektu. addAuthor odnosi się do funkcji this.authors.push w obiekcie bookshelf
   bookshelf.addAuthor("Tolkien");
   bookshelf.addAuthor("Sapkowski");
   bookshelf.addAuthor("Sanderson");
   bookshelf.addAuthor("Dukaj");
   bookshelf.addAuthor("Gaiman");
-  // Sprawdzenie, czy autorzy zostali dodani do obiektu
+  // Sprawdzenie, czy autorzy zostali dodani do obiektu. getAuthors odnosi się do funkcji return this.authors w obiekcie bookshelf
   console.log(bookshelf.getAuthors());
   
